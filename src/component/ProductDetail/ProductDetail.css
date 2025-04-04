@@ -182,15 +182,15 @@
         justify-content: center;
     }
     .main_image{
-        width: 100%;
-        height: 100%;
+        width: 350px;
+        height: auto;
     }
     .other_images{
         display: flex;
     }
     .other_images img{
-        width: 100%;
-        height: 100%;
+        width: 50px;
+        height: 50px;
     }
     .product_info{
         display: flex;
@@ -253,15 +253,15 @@
         justify-content: center;
     }
     .main_image{
-        width: 100%;
-        height: 100%;
+        width: 350px;
+        height: auto;
     }
     .other_images{
         display: flex;
     }
     .other_images img{
-        width: 100%;
-        height: 100%;
+        width: 40px;
+        height: 40px;
     }
     .product_info{
         display: flex;
