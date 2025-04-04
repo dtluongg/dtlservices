@@ -25,7 +25,7 @@ const Services = () => {
                 <div className="service_overlay">
                     <h3>Dịch vụ nâng cấp, sửa lỗi laptop</h3>
                     <p>Nâng cấp laptop (ram, ssd) giá cực hấp dẫn.</p>
-                    <p>Cài lại win và office bản quyền vĩnh viễn chỉ từ 100 cành.</p>
+                    <p>Hỗ trợ sửa các lỗi cơ bản của máy tính (miễn phí).</p>
                 </div>
             </div>
             <div className="service_cart">
