@@ -11,7 +11,7 @@ import ProductDetail from "./component/ProductDetail/ProductDetail";
 function App() {
     return (
         <div>
-            <Router>
+            <Router basename="/dtlservices">
                 <div className="App">
                     <Routes>
                         <Route path="/" element={

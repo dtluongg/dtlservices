@@ -1,2 +1,29 @@
 npm install react-router-dom 
 npm install gh-pages --save-dev
+
+Lưu ý khi up code react js lên git hub.
+B1: Tạo git repo
+B2: Git init, add, commit
+B3: Git remote add origin <link git repo>
+B4: Git push -u origin master
+B5: Vào package.json thêm 2 dòng sau:
+"name": "dtl_services",
+"homepage": "https://dtluongg.github.io/dtlservices",
+
+B6: Vào phần script trong package.json thêm:
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+B7: Kiểm tra trong App.js có link tới repo chưa
+function App() {
+    return (
+        <div>
+            <Router basename="/dtlservices">
+                <div className="App">
+
+
+B8: npm run build
+B9: npm run deploy
+
+
+Mỗi khi muốn push code thì cứ vẫn git push bình thường
+Nhưng muốn update code thì phải npm run deploy
