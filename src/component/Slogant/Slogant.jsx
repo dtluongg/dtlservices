@@ -3,7 +3,7 @@ import './Slogant.css'
 const Slogant = () => {
   return (
     <div className='sologant'>
-        <p>Chú bé Lượng - Chàng trai chuyên ngành công nghệ thông tin - Thích lái xe ô tô chở khách và phụ ba mẹ bán bành kiếm tiền.</p> 
+        <p>Chú bé Lượng - Chàng trai chuyên ngành công nghệ thông tin - Thích lái xe ô tô và biết làm bánh mì</p> 
     </div>
   )
 }
