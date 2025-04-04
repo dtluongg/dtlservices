@@ -1,0 +1,103 @@
+/* Add viewport meta tag reference */
+@viewport {
+    width: device-width;
+    initial-scale: 1.0;
+}
+.location_stores{   
+    display: block;
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+}
+.location_stores h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 650;
+    text-align: center;
+}
+.store_list{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50%, 1fr));
+    gap: 2rem;
+    max-width: 90%;
+    margin: 20px auto;
+}
+.store_item{
+    margin-top: 30px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.store_item h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+}
+.store_item p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+.store_info{    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+    padding: 0 10px
+
+}
+.store_info 
+.map_frame{
+    margin-top: 10px;
+}
+@media all and (max-width: 480px) {
+    .location_stores{
+        max-width: 100%;
+    }
+    .store_list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .store_item{
+        width: 90%;
+    }
+    .location_stores h2{
+        font-size: 15px;
+    }
+    .store_item h3{
+        font-size: 15px;
+    }
+    .store_item p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .store_list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .store_item{
+        width: 90%;
+    }
+    .location_stores h2{
+        font-size: 20px;
+    }
+    .location_stores h3{
+        font-size: 15px;
+    }
+    .location_stores p{
+        font-size: 15px;
+    }
+    
+}

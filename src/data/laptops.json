@@ -1,0 +1,196 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Acer Aspire A315-34 P3LC",
+            "description": "CPU Intel N5000, RAM 8GB, SSD 256GB, INTEL UHD 605",
+            "fullDescription": "Laptop Acer Aspire A315 là sự lựa chọn hoàn hảo cho công việc và giải trí. Với cấu hình mạnh mẽ, thiết kế sang trọng và màn hình HD sắc nét, chiếc laptop này sẽ đáp ứng mọi nhu cầu học tập cơ bản của bạn.",
+            "price": "4.000.000đ",
+            "status": "sold",
+            "images": [
+                "/images/laptop/laptop1.jpg",
+                "/images/laptop/laptop1_1.jpg",
+                "/images/laptop/laptop1_2.jpg",
+                "/images/laptop/laptop1_3.jpg"
+            ],
+            "specifications": {
+                "CPU": "CPU Intel N5000",
+                "RAM": "8GB DDR4",
+                "Ổ cứng": "256GB SSD",
+                "Card đồ họa": "INTEL UHD 605",
+                "Màn hình": "15.6 inch HD",
+                "Hệ điều hành": "Windows 11 Home",
+                "Pin": "4-cell 48Wh",
+                "Trọng lượng": "1.7kg"
+            }
+        },
+        {
+            "id": 2,
+            "name": "HP 15S FQ1107TU",
+            "description": "CPU Intel Core i3-1005G1, RAM 8GB, SSD 256GB, Intel UHD Graphics",
+            "fullDescription": "Laptop HP 15S với thiết kế mỏng nhẹ, hiệu năng ổn định, phù hợp cho công việc văn phòng và giải trí nhẹ nhàng.",
+            "price": "7.500.000đ",
+            "status": "sold",
+            "images": [
+                "/images/laptop/laptop2.jpg",
+                "/images/laptop/laptop2_1.jpg",
+                "/images/laptop/laptop2_2.jpg",
+                "/images/laptop/laptop2_3.jpg"
+            ],
+            "specifications": {
+                "CPU": "Intel Core i3-1005G1",
+                "RAM": "8GB DDR4",
+                "Ổ cứng": "256GB SSD",
+                "Card đồ họa": "Intel UHD Graphics",
+                "Màn hình": "15.6 inch HD",
+                "Hệ điều hành": "Windows 11 Home",
+                "Pin": "3-cell 41Wh",
+                "Trọng lượng": "1.7kg"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Asus K43E",
+            "description": "CPU INTEL Core i3-2330M, RAM 4GB, SSD 500GB, INTEL HD Graphics",
+            "fullDescription": "Laptop Asus K43E với hiệu năng mạnh mẽ từ INTEL Core i3-2330M, phù hợp cho học tập và công việc văn phòng.",
+            "price": "2.300.000đ",
+            "status": "available",
+            "images": [
+                "/images/laptop/laptop3.jpg",
+                "/images/laptop/laptop3_1.jpg",
+                "/images/laptop/laptop3_2.jpg",
+                "/images/laptop/laptop3_3.jpg"
+            ],
+            "specifications": {
+                "CPU": "INTEL Core i3-2330M",
+                "RAM": "4GB DDR4",
+                "Ổ cứng": "500GB HDD",
+                "Card đồ họa": "INTEL HD Graphics",
+                "Màn hình": "14 inch HD",
+                "Hệ điều hành": "Windows 10 Home",
+                "Pin": "3-cell 41Wh",
+                "Trọng lượng": "2.3kg"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Sony Vaio SVF142DSGW",
+            "description": "CPU Intel Core i3-3217U, RAM 4GB, HDD 500GB, INTEL HD Graphics",
+            "fullDescription": "Laptop Sony Vaio với thiết kế sang trọng, hiệu năng mạnh mẽ, phù hợp cho doanh nhân và người dùng cao cấp.",
+            "price": "2.500.000đ",
+            "status": "sold",
+            "images": [
+                "/images/laptop/laptop4.jpg",
+                "/images/laptop/laptop4_1.jpg",
+                "/images/laptop/laptop4_2.jpg",
+                "/images/laptop/laptop4_3.jpg"
+            ],
+            "specifications": {
+                "CPU": "Intel Core i3-3217U",
+                "RAM": "4GB DDR4",
+                "Ổ cứng": "500GB HDD",
+                "Card đồ họa": "INTEL HD Graphics",
+                "Màn hình": "14 inch HD",
+                "Hệ điều hành": "Windows 10 Home",
+                "Pin": "3-cell 41Wh",
+                "Trọng lượng": "2.1kg"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Dell Latitude E7470",
+            "description": "CPU Intel Core i7-6600U, RAM 8GB, SSD 256GB, INTEL HD Graphics",
+            "fullDescription": "Laptop Dell Latitude với độ bền cao, bảo mật tốt, phù hợp cho doanh nghiệp và người dùng chuyên nghiệp.",
+            "price": "4.800.000đ",
+            "status": "sold",
+            "images": [
+                "/images/laptop/laptop5.jpg",
+                "/images/laptop/laptop5_1.jpg",
+                "/images/laptop/laptop5_2.jpg",
+                "/images/laptop/laptop5_3.jpg"
+            ],
+            "specifications": {
+                "CPU": "Intel Core i7-6600U",
+                "RAM": "8GB DDR4",
+                "Ổ cứng": "256GB SSD",
+                "Card đồ họa": "INTEL HD Graphics",
+                "Màn hình": "14 inch HD",
+                "Hệ điều hành": "Windows 10 Home",
+                "Pin": "3-cell 41Wh",
+                "Trọng lượng": "1.6kg"
+            }
+        },
+        {
+            "id": 6,
+            "name": "HP Pavilion 14-AL008TU",
+            "description": "CPU INTEL Core i3-6100U, RAM 12GB, SSD 240GB, INTEL HD Graphics",
+            "fullDescription": "Laptop HP Pavilion với thiết kế trẻ trung, hiệu năng cân bằng, phù hợp cho sinh viên và người dùng phổ thông.",
+            "price": "4.900.000đ",
+            "status": "sold",
+            "images": [
+                "/images/laptop/laptop6.jpg",
+                "/images/laptop/laptop6_1.jpg",
+                "/images/laptop/laptop6_2.jpg",
+                "/images/laptop/laptop6_3.jpg"
+            ],
+            "specifications": {
+                "CPU": "INTEL Core i3-6100U",
+                "RAM": "12GB DDR4",
+                "Ổ cứng": "240GB SSD",
+                "Card đồ họa": "INTEL HD Graphics",
+                "Màn hình": "14 inch HD",
+                "Hệ điều hành": "Windows 10 Home",
+                "Pin": "3-cell 43Wh",
+                "Trọng lượng": "1.5kg"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Dell Vostro 3459",
+            "description": "CPU Intel Core i5-6300U, RAM 8GB, SSD 128GB, INTEL HD Graphics",
+            "fullDescription": "Laptop Dell Vostro với cấu hình cao cấp, phù hợp cho gaming và các tác vụ đồ họa chuyên nghiệp.",
+            "price": "4.500.000đ",
+            "status": "available",
+            "images": [
+                "/images/laptop/laptop7.jpg",
+                "/images/laptop/laptop7_1.jpg",
+                "/images/laptop/laptop7_2.jpg",
+                "/images/laptop/laptop7_3.jpg"
+            ],
+            "specifications": {
+                "CPU": "Intel Core i5-6300U",
+                "RAM": "8GB DDR4",
+                "Ổ cứng": "128GB SSD",
+                "Card đồ họa": "INTEL HD Graphics",
+                "Màn hình": "14 inch HD",
+                "Hệ điều hành": "Windows 10 Home",
+                "Pin": "3-cell 41Wh",
+                "Trọng lượng": "1.8kg"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Acer Aspire 3 A315-34 C2H9",
+            "description": "CPU Intel N4020, RAM 8GB, SSD 256GB, INTEL UHD 605",
+            "fullDescription": "Laptop Acer Aspire 3 với hiệu năng mạnh mẽ, thiết kế hiện đại, phù hợp cho cả công việc và giải trí.",
+            "price": "5.500.000đ",
+            "status": "sold",
+            "images": [
+                "/images/laptop/laptop8.jpg",
+                "/images/laptop/laptop8_1.jpg",
+                "/images/laptop/laptop8_2.jpg",
+                "/images/laptop/laptop8_3.jpg"
+            ],
+            "specifications": {
+                "CPU": "Intel N4020",
+                "RAM": "8GB DDR4",
+                "Ổ cứng": "256GB SSD",
+                "Card đồ họa": "INTEL UHD 605",
+                "Màn hình": "15.6 inch HD",
+                "Hệ điều hành": "Windows 11 Home",
+                "Pin": "4-cell 48Wh",
+                "Trọng lượng": "2.2kg"
+            }
+        }
+    ]
+} 
