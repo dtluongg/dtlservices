@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 1rem;
+    padding: 50px 0;
     background: linear-gradient(to right, #144f9b, #531919);
     border-radius: 15px;
 }   
@@ -69,7 +69,7 @@
 @media (max-width: 768px) {
     .social {
         width: 90%;
-        padding: 1.5rem;
+        padding: 20px 20px;
     }
     
     .social h2 {
