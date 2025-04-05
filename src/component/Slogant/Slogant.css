@@ -5,7 +5,7 @@
 }
 .sologant{
     max-width: 90%;
-    margin: 30px auto;
+    margin: 30px 30px;
 }
 .sologant p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,6 +19,7 @@
     }
     .sologant p{
         font-size: 20px;
+        text-align: justify;
     }
 }
 

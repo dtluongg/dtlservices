@@ -102,7 +102,7 @@
     }
     
     .social-list {
-        gap: 1.5rem;
+        gap: 10px;
     }
     
     .social-item {
@@ -115,7 +115,7 @@
     }
     
     .social-item p {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
