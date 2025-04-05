@@ -6,7 +6,7 @@ const Item = ({ product }) => {
             <div className="product-image">
                 <img src={process.env.PUBLIC_URL + product.images[0]} alt={product.name} />
                 <div className={`status-badge ${product.status}`}>
-                    {product.status === "available" ? "Còn hàng" : "Đã bán"}
+                    {product.status === "available" ? "Đang còn" : "Đã bán"}
                 </div>
             </div>
             <div className="product-info">

@@ -47,7 +47,7 @@ const ProductDetail = () => {
                 <div className="product_info">
                     <h1>{product.name}</h1>
                     <div className={`status_badge ${product.status}`}>
-                        {product.status === 'available' ? 'Còn hàng' : 'Đã bán'}
+                        {product.status === 'available' ? 'Đang còn' : 'Đã bán'}
                     </div>
                     <p className="price">{product.price}</p>
                     <p className="description">{product.fullDescription}</p>
