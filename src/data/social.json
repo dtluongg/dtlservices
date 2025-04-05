@@ -1,0 +1,28 @@
+{
+    "social": [
+        {
+            "id": 1,
+            "name": "luongxmen1402",
+            "icon": "/images/icons/facebook.png",
+            "link": "https://www.facebook.com/luongxmen1402"
+        },
+        {
+            "id": 2,
+            "name": "@chubeluong1402",
+            "icon": "/images/icons/youtube.png",
+            "link": "https://www.youtube.com/@chubeluong1402"
+        },
+        {
+            "id": 3,
+            "name": ".tin.lng",
+            "icon": "/images/icons/tiktok.png",
+            "link": "https://www.tiktok.com/@.tin.lng?lang=vi-VN"
+        },
+        {
+            "id": 4,
+            "name": "dtluongg",
+            "icon": "/images/icons/github.png",
+            "link": "https://github.com/dtluongg"
+        }
+    ]
+}

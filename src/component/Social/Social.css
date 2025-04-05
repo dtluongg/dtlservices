@@ -1,0 +1,122 @@
+.social {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    background: linear-gradient(to right, #144f9b, #531919);
+    border-radius: 15px;
+}   
+.social h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 650;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}   
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.social-item {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.3s ease;
+}
+
+.social-item:hover {
+    transform: translateY(-5px);
+}
+
+.social-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.social-item p {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.social-item a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.social-item a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .social {
+        width: 90%;
+        padding: 1.5rem;
+    }
+    
+    .social h2 {
+        font-size: 24px;
+    }
+    
+    .social-list {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 2rem;
+    }
+    
+    .social-item {
+        width: 200px;
+    }
+    .social-item img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .social-item p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .social h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .social-list {
+        gap: 1.5rem;
+    }
+    
+    .social-item {
+        width: 140px;
+    }
+    
+    .social-item img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .social-item p {
+        font-size: 14px;
+    }
+}
+
+

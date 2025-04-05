@@ -7,11 +7,14 @@ import ProductList from "./component/ProductList/ProductList";
 import ServiceOption from "./component/ServiceOption/ServiceOption";
 import MapLocation from "./component/MapLocation/MapLocation";
 import Footer from "./component/Footer/Footer";
-import ProductDetail from "./component/ProductDetail/ProductDetail";    
+import ProductDetail from "./component/ProductDetail/ProductDetail";
+import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
+import Social from "./component/Social/Social";
 function App() {
     return (
         <div>
             <Router basename="/dtlservices">
+                <ScrollToTop />
                 <div className="App">
                     <Routes>
                         <Route path="/" element={
@@ -21,6 +24,7 @@ function App() {
                                 <Services />
                                 <ProductList />
                                 <ServiceOption />
+                                <Social />
                                 <MapLocation />
                                 <Footer />
                             </>

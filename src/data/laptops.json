@@ -8,10 +8,10 @@
             "price": "4.000.000đ",
             "status": "sold",
             "images": [
-                "/images/laptop/laptop1.jpg",
-                "/images/laptop/laptop1_1.jpg",
-                "/images/laptop/laptop1_2.jpg",
-                "/images/laptop/laptop1_3.jpg"
+                "/images/laptop/acer1.jpg",
+                "/images/laptop/acer1_1.jpg",
+                "/images/laptop/acer1_2.jpg",
+                "/images/laptop/acer1_3.jpg"
             ],
             "specifications": {
                 "CPU": "CPU Intel N5000",
@@ -32,10 +32,10 @@
             "price": "7.500.000đ",
             "status": "sold",
             "images": [
-                "/images/laptop/laptop2.jpg",
-                "/images/laptop/laptop2_1.jpg",
-                "/images/laptop/laptop2_2.jpg",
-                "/images/laptop/laptop2_3.jpg"
+                "/images/laptop/hp1.jpg",
+                "/images/laptop/hp1_1.jpg",
+                "/images/laptop/hp1_2.jpg",
+                "/images/laptop/hp1_3.jpg"
             ],
             "specifications": {
                 "CPU": "Intel Core i3-1005G1",
@@ -104,10 +104,10 @@
             "price": "4.800.000đ",
             "status": "sold",
             "images": [
-                "/images/laptop/laptop5.jpg",
-                "/images/laptop/laptop5_1.jpg",
-                "/images/laptop/laptop5_2.jpg",
-                "/images/laptop/laptop5_3.jpg"
+                "/images/laptop/dell1.jpg",
+                "/images/laptop/dell1_1.jpg",
+                "/images/laptop/dell1_2.jpg",
+                "/images/laptop/dell1_3.jpg"
             ],
             "specifications": {
                 "CPU": "Intel Core i7-6600U",
@@ -128,10 +128,10 @@
             "price": "4.900.000đ",
             "status": "sold",
             "images": [
-                "/images/laptop/laptop6.jpg",
-                "/images/laptop/laptop6_1.jpg",
-                "/images/laptop/laptop6_2.jpg",
-                "/images/laptop/laptop6_3.jpg"
+                "/images/laptop/hp2.jpg",
+                "/images/laptop/hp2_1.jpg",
+                "/images/laptop/hp2_2.jpg",
+                "/images/laptop/hp2_3.jpg"
             ],
             "specifications": {
                 "CPU": "INTEL Core i3-6100U",
@@ -176,10 +176,10 @@
             "price": "5.500.000đ",
             "status": "sold",
             "images": [
-                "/images/laptop/laptop8.jpg",
-                "/images/laptop/laptop8_1.jpg",
-                "/images/laptop/laptop8_2.jpg",
-                "/images/laptop/laptop8_3.jpg"
+                "/images/laptop/acer2.jpg",
+                "/images/laptop/acer2_1.jpg",
+                "/images/laptop/acer2_2.jpg",
+                "/images/laptop/acer2_3.jpg"
             ],
             "specifications": {
                 "CPU": "Intel N4020",
