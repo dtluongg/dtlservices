@@ -149,13 +149,13 @@
             "name": "Dell Vostro 3459",
             "description": "CPU Intel Core i5-6300U, RAM 8GB, SSD 128GB, INTEL HD Graphics",
             "fullDescription": "Laptop Dell Vostro với cấu hình cao cấp, phù hợp cho gaming và các tác vụ đồ họa chuyên nghiệp.",
-            "price": "4.500.000đ",
-            "status": "available",
+            "price": "5.500.000đ",
+            "status": "sold",
             "images": [
-                "/images/laptop/laptop7.jpg",
-                "/images/laptop/laptop7_1.jpg",
-                "/images/laptop/laptop7_2.jpg",
-                "/images/laptop/laptop7_3.jpg"
+                "/images/laptop/dell2.jpg",
+                "/images/laptop/dell2_1.jpg",
+                "/images/laptop/dell2_2.jpg",
+                "/images/laptop/dell2_3.jpg"
             ],
             "specifications": {
                 "CPU": "Intel Core i5-6300U",
