@@ -39,7 +39,7 @@ const BanhMiService = () => {
             <div className="banhmi-service">
                 <div className="banhmi-item" onClick={() => handleItemClick('dacruot')}>
                     <img 
-                        src={`${process.env.PUBLIC_URL}/images/services/banhmi_dacruot.jpg`} 
+                        src={`${process.env.PUBLIC_URL}/images/services/order_banhmi/banhmi_dacruot.jpg`} 
                         alt="Bánh mì đặc ruột"
                     />
                     <div className="banhmi-overlay">
@@ -49,7 +49,7 @@ const BanhMiService = () => {
                 </div>
                 <div className="banhmi-item" onClick={() => handleItemClick('sandwich')}>
                     <img 
-                        src={`${process.env.PUBLIC_URL}/images/services/banhmi_sandwich.jpg`} 
+                        src={`${process.env.PUBLIC_URL}/images/services/order_banhmi/banhmi_sandwich.jpg`} 
                         alt="Bánh mì sandwich"
                     />
                     <div className="banhmi-overlay">
@@ -59,7 +59,7 @@ const BanhMiService = () => {
                 </div>
                 <div className="banhmi-item" onClick={() => handleItemClick('kepthit')}>
                     <img 
-                        src={`${process.env.PUBLIC_URL}/images/services/banhmi_kepthit.jpg`} 
+                        src={`${process.env.PUBLIC_URL}/images/services/order_banhmi/banhmi_kepthit.jpg`} 
                         alt="Bánh mì kẹp thịt"
                     />
                     <div className="banhmi-overlay">

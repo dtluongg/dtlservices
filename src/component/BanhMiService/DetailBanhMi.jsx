@@ -7,35 +7,35 @@ const DetailBanhMi = () => {
             id: 1,
             name: 'Bánh Mì Sandwich',
             price: '20.000đ',
-            image: 'banhmi_dacruot.jpg',
+            image: 'order_banhmi/banhmi_dacruot.jpg',
             description: 'Bánh mì sanwich mềm, mịn, thơm ngon'
         },
         {
             id: 2,
             name: 'Bánh Mì Kẹp Thịt',
             price: '15.000đ',
-            image: 'banhmi_sandwich.jpg',
+            image: 'order_banhmi/banhmi_sandwich.jpg',
             description: 'Bánh mì kẹp thịt heo + chả lụa + nem'
         },
         {
             id: 3,
             name: 'Bánh Mì Trứng ',
             price: '13.000đ - 17.000đ',
-            image: 'banhmi_kepthit.jpg',
+            image: 'order_banhmi/banhmi_kepthit.jpg',
             description: 'Bánh mì trứng thịt'
         },
         {
-            id: 4,
+            id: 4,  
             name: 'Bánh Mì Trứng + Thịt',
             price: '22.000đ',
-            image: 'banhmi_sandwich.jpg',
+            image: 'order_banhmi/banhmi_sandwich.jpg',
             description: 'Bánh mì trứng + thịt'
         },
         {
             id: 5,
             name: 'Bánh Mì full topping',
             price: '25.000đ',
-            image: 'banhmi_kepthit.jpg',
+            image: 'order_banhmi/banhmi_kepthit.jpg',
             description: 'Bánh mì trứng + thịt + chả lụa + nem'
         }
     ];

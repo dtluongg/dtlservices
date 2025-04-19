@@ -1,32 +1,32 @@
 {
     "destinations": [
         {
-            "image": "/images/services/car.jpeg",
+            "image": "/images/services/book_car/car.jpeg",
             "province": "Vũng Tàu",
             "location": "Bãi Sau"
         },
         {
-            "image": "/images/services/car.jpeg",
+            "image": "/images/services/book_car/car.jpeg",
             "province": "Phan Thiết",
             "location": "Mũi Né"
         },
         {
-            "image": "/images/services/car.jpeg",
+            "image": "/images/services/book_car/car.jpeg",
             "province": "Nha Trang",
             "location": "Vinpearl"
         },
         {
-            "image": "/images/services/car.jpeg",
+            "image": "/images/services/book_car/car.jpeg",
             "province": "Tây Ninh",
             "location": "Núi Bà Đen"
         },
         {
-            "image": "/images/services/car.jpeg",
+            "image": "/images/services/book_car/car.jpeg",
             "province": "An Giang",
             "location": "Núi Sam"
         },
         {
-            "image": "/images/services/car.jpeg",
+            "image": "/images/services/book_car/car.jpeg",
             "province": "Đà Lạt",
             "location": "Thung Lũng Tình Yêu"
         }

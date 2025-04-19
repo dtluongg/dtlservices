@@ -22,7 +22,7 @@ const CarService = () => {
                 <div className="service_cars_container">
                     <div className="service_car" onClick={() => handleServiceClick('du lịch')}>
                         <img
-                            src={`${process.env.PUBLIC_URL}/images/services/car.jpeg`}
+                            src={`${process.env.PUBLIC_URL}/images/services/book_car/car.jpeg`}
                             alt="Đặt xe đi du lịch"
                             className="service_image"
                         />
@@ -34,7 +34,7 @@ const CarService = () => {
 
                     <div className="service_car" onClick={() => handleServiceClick('sân bay')}>
                         <img
-                            src={`${process.env.PUBLIC_URL}/images/services/car.jpeg`}
+                            src={`${process.env.PUBLIC_URL}/images/services/book_car/car.jpeg`}
                             alt="Đặt xe đi sân bay"
                             className="service_image"
                         />
@@ -46,7 +46,7 @@ const CarService = () => {
 
                     <div className="service_car" onClick={() => handleServiceClick('khám bệnh')}>
                         <img
-                            src={`${process.env.PUBLIC_URL}/images/services/car.jpeg`}
+                            src={`${process.env.PUBLIC_URL}/images/services/book_car/car.jpeg`}
                             alt="Đặt xe đi khám bệnh"
                             className="service_image"
                         />
