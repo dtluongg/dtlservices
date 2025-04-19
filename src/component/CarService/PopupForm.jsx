@@ -92,7 +92,7 @@ const PopupForm = ({ isOpen, onClose, serviceType }) => {
         <div className="popup-overlay">
             <div className="popup-content">
                 <button className="close-button" onClick={onClose}>×</button>
-                <h2 style={{ marginBottom: "20px" }}>Đặt xe {serviceType}</h2>
+                <h2 style={{ marginBottom: "20px" }}>Đặt xe đi {serviceType}</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="name">Tên khách hàng:</label>
