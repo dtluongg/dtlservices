@@ -10,6 +10,9 @@ import Footer from "./component/Footer/Footer";
 import ProductDetail from "./component/ProductDetail/ProductDetail";
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 import Social from "./component/Social/Social";
+import CarService from "./component/CarService/CarService";
+import BanhMiService from "./component/BanhMiService/BanhMiService";
+
 function App() {
     return (
         <div>
@@ -33,6 +36,20 @@ function App() {
                             <>
                                 <Header />
                                 <ProductDetail />
+                                <Footer />
+                            </>
+                        } />
+                        <Route path="/car-service" element={
+                            <>
+                                <Header />
+                                <CarService />
+                                <Footer />
+                            </>
+                        } />
+                        <Route path="/banh-mi" element={
+                            <>
+                                <Header />
+                                <BanhMiService />
                                 <Footer />
                             </>
                         } />

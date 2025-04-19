@@ -1,10 +1,34 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Services.css";
 
 const Services = () => {
+    const navigate = useNavigate();
+
+    const handleCarServiceClick = () => {
+        navigate("car-service");
+    };
+
+    const handleLaptopServiceClick = () => {
+        const serviceOptionElement = document.getElementById('service-option');
+        if (serviceOptionElement) {
+            serviceOptionElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const handleBanhMiClick = () => {
+        navigate("banh-mi");
+        setTimeout(() => {
+            const banhmiService = document.querySelector('.banhmi-service');
+            if (banhmiService) {
+                banhmiService.scrollIntoView({ behavior: 'smooth' });
+            }
+        }, 100);
+    };
+
     return (
         <div className="services">
-            <div className="service_cart">
+            <div className="service_cart" onClick={handleCarServiceClick}>
                 <img
                     src={`${process.env.PUBLIC_URL}/images/services/car3.jpeg`}
                     alt="Dịch vụ xe du lịch"
@@ -16,7 +40,7 @@ const Services = () => {
                     <p>Luôn có sẵn xe từ 7, 16, 24, 30, 45 chỗ.</p>
                 </div>
             </div>
-            <div className="service_cart">
+            <div className="service_cart" onClick={handleLaptopServiceClick}>
                 <img
                     src={`${process.env.PUBLIC_URL}/images/services/laptop.jpeg`}
                     alt="Dịch vụ nâng cấp, sửa lỗi laptop"
@@ -28,7 +52,7 @@ const Services = () => {
                     <p>Hỗ trợ sửa các lỗi cơ bản của máy tính (miễn phí).</p>
                 </div>
             </div>
-            <div className="service_cart">
+            <div className="service_cart" onClick={handleBanhMiClick}>
                 <img
                     src={`${process.env.PUBLIC_URL}/images/services/banhmi.jpeg`}
                     alt="Bánh mì cô Tuyết"

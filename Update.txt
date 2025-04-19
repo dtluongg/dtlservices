@@ -1,0 +1,8 @@
+Update 19/04/2025:
++ Thêm scroll và xử lý chuyển trang cho các component liên kết với nhau.
++ Tạo component carservice; banhmiservice cho 2 dịch vụ car and bánh mì.
++ Tạo form mỗi khi đặt xe or bánh mì và gửi mail.
+* chưa cập nhật hình ảnh cho các service. 
+
+
++ Cập nhật form đặt bánh mì cho mỗi loại bánh (gửi qua email)

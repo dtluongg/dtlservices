@@ -3,7 +3,7 @@ import './ServiceOption.css'
 // ram, ssd, pin, màn hình, cục sạc, cài win + office 
 const ServiceOption = () => {
   return (
-    <div className='service_option'>
+    <div className='service_option' id="service-option">
         <h2>Laptop của bạn đang cần nâng cấp gì?</h2>
         <div className='service_option_list'>
             <div className='service_option_item'>
