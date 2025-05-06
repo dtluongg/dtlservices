@@ -33,7 +33,7 @@ const Header = () => {
 
     const handleLaptopServiceClick = (e) => {
         e.preventDefault();
-        navigateAndScroll('service-option');
+        navigate('/laptop-service');
     };
 
     const handleCarServiceClick = (e) => {
@@ -48,6 +48,11 @@ const Header = () => {
     const handleProductClick = (e) => {
         e.preventDefault();
         navigateAndScroll('product-list');
+    };
+
+    const handleBanhMiClick = (e) => {
+        e.preventDefault();
+        navigate('/banh-mi');
     };
 
     // Xử lý scroll khi URL có hash
@@ -76,8 +81,9 @@ const Header = () => {
                             <li><Link to="/sanphamlaptop">Laptop</Link></li>
                         </ul>
                     </li>
-                    <li><Link to="#" onClick={handleLaptopServiceClick}>Dịch vụ laptop</Link></li>
                     <li><Link to="#" onClick={handleCarServiceClick}>Dịch vụ xe Du lịch</Link></li>
+                    <li><Link to="#" onClick={handleLaptopServiceClick}>Dịch vụ laptop</Link></li>
+                    <li><Link to="#" onClick={handleBanhMiClick}>Đặt bánh mì</Link></li>
                     <li><Link to="https://dtluongg.github.io/#home">Thông tin</Link></li>
                 </ul>
             </nav>

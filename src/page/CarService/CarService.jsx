@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import './CarService.css';
-import carDestinations from '../../data/carDestinations.json';
-import PopupForm from './PopupForm';
+import React, { useState } from "react";
+import "./CarService.css";
+import carDestinations from "../../data/carDestinations.json";
+import PopupForm from "./PopupForm";
+import OrderSticker from "../../component/OrderSticker/OrderSticker";
 
 const CarService = () => {
     const [selectedService, setSelectedService] = useState(null);
@@ -18,23 +19,30 @@ const CarService = () => {
         <div className="car-service">
             {/* Container 1: Dịch vụ xe */}
             <div className="service_cars">
-                <h2>Nhận hợp đồng đặt xe đi du lịch và dịch vụ cho thuê xe 4 - 7 - 16 - 29 - 45 chỗ</h2>
+                <h2>
+                    Nhận hợp đồng đặt xe đi du lịch và dịch vụ cho thuê xe 4 - 7 - 16 - 29 - 45 chỗ
+                </h2>
                 <div className="service_cars_container">
-                    <div className="service_car" onClick={() => handleServiceClick('du lịch')}>
+                    <div className="service_car" onClick={() => handleServiceClick("du lịch")}>
+                        <OrderSticker OrderName="Click để đặt xe" />
                         <img
-                            src={`${process.env.PUBLIC_URL}/images/services/book_car/car.jpeg`}
+                            src={`${process.env.PUBLIC_URL}/images/services/book_car/dulich.jpg`}
                             alt="Đặt xe đi du lịch"
                             className="service_image"
                         />
                         <div className="service_info">
                             <h3>Đặt xe đi du lịch</h3>
-                            <p>Đi du lịch các tỉnh Vũng Tàu, Phan Thiết, Nha Trang, Tây Ninh, An Giang,...</p>
+                            <p>
+                                Đi du lịch các tỉnh Vũng Tàu, Phan Thiết, Nha Trang, Tây Ninh, An
+                                Giang,...
+                            </p>
                         </div>
                     </div>
 
-                    <div className="service_car" onClick={() => handleServiceClick('sân bay')}>
+                    <div className="service_car" onClick={() => handleServiceClick("sân bay")}>
+                        <OrderSticker OrderName="Click để đặt xe" />
                         <img
-                            src={`${process.env.PUBLIC_URL}/images/services/book_car/car.jpeg`}
+                            src={`${process.env.PUBLIC_URL}/images/services/book_car/sanbay.jpg`}
                             alt="Đặt xe đi sân bay"
                             className="service_image"
                         />
@@ -44,9 +52,10 @@ const CarService = () => {
                         </div>
                     </div>
 
-                    <div className="service_car" onClick={() => handleServiceClick('khám bệnh')}>
+                    <div className="service_car" onClick={() => handleServiceClick("khám bệnh")}>
+                        <OrderSticker OrderName="Click để đặt xe" />
                         <img
-                            src={`${process.env.PUBLIC_URL}/images/services/book_car/car.jpeg`}
+                            src={`${process.env.PUBLIC_URL}/images/services/book_car/benhvien.jpg`}
                             alt="Đặt xe đi khám bệnh"
                             className="service_image"
                         />
@@ -60,7 +69,7 @@ const CarService = () => {
 
             {/* Container 2: Các điểm đến */}
             <div className="destinations">
-                <h2>Các điểm đến đã đi qua</h2>
+                <h2>Các địa danh đã đi đến</h2>
                 <div className="destinations_grid">
                     {carDestinations.destinations.map((destination, index) => (
                         <div key={index} className="destination_card">

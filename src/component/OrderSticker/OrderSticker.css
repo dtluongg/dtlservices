@@ -1,0 +1,20 @@
+.order-sticker {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #ff5252;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.98rem;
+    padding: 8px 16px;
+    border-radius: 24px 8px 24px 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    z-index: 2;
+    animation: bomb-bounce 1.2s infinite alternate;
+    pointer-events: none;
+}
+
+@keyframes bomb-bounce {
+    0% { transform: scale(1) rotate(-6deg);}
+    100% { transform: scale(1.08) rotate(6deg);}
+}

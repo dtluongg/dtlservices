@@ -8,12 +8,13 @@ const Services = () => {
     const handleCarServiceClick = () => {
         navigate("car-service");
     };
-
+    
     const handleLaptopServiceClick = () => {
-        const serviceOptionElement = document.getElementById('service-option');
-        if (serviceOptionElement) {
-            serviceOptionElement.scrollIntoView({ behavior: 'smooth' });
-        }
+        // const serviceOptionElement = document.getElementById('service-option');
+        // if (serviceOptionElement) {
+        //     serviceOptionElement.scrollIntoView({ behavior: 'smooth' });
+        // }
+        navigate("laptop-service");
     };
 
     const handleBanhMiClick = () => {

@@ -1,34 +1,65 @@
 {
     "destinations": [
         {
-            "image": "/images/services/book_car/car.jpeg",
-            "province": "Vũng Tàu",
-            "location": "Bãi Sau"
+            "image": "/images/services/book_car/vungtau.jpg",
+            "province": "Bà Rịa -Vũng Tàu",
+            "location": "Bãi Sau - Thành phố Vũng Tàu"
         },
         {
-            "image": "/images/services/book_car/car.jpeg",
-            "province": "Phan Thiết",
-            "location": "Mũi Né"
+            "image": "/images/services/book_car/muine.jpeg",
+            "province": "Bình Thuận",
+            "location": "Mũi Né - Thành phố Phan Thiết"
         },
         {
-            "image": "/images/services/book_car/car.jpeg",
+            "image": "/images/services/book_car/nhatrang.jpg",
             "province": "Nha Trang",
-            "location": "Vinpearl"
+            "location": "Thành Phố Nha Trang"
         },
         {
-            "image": "/images/services/book_car/car.jpeg",
+            "image": "/images/services/book_car/nuibaden.jpg",
             "province": "Tây Ninh",
-            "location": "Núi Bà Đen"
+            "location": "Núi Bà Đen - Thạnh Tân"
         },
         {
-            "image": "/images/services/book_car/car.jpeg",
-            "province": "An Giang",
-            "location": "Núi Sam"
+            "image": "/images/services/book_car/dalat.jpg",
+            "province": "Lâm Đồng",
+            "location": "Thành phố Đà Lạt"
         },
         {
-            "image": "/images/services/book_car/car.jpeg",
-            "province": "Đà Lạt",
-            "location": "Thung Lũng Tình Yêu"
+            "image": "/images/services/book_car/thapnghinhphong.jpg",
+            "province": "Phú Yên",
+            "location": "Tháp Nghinh Phong - Tuy Hoà"
+        },
+        {
+            "image": "/images/services/book_car/langchutich.jpg",
+            "province": "Hà Nội",
+            "location": "Lăng Chủ Tịch - Ba Đình"
+        },
+        {
+            "image": "/images/services/book_car/baichay.jpg",
+            "province": "Quảng Ninh",
+            "location": "Bãi Cháy - Thành Phố Hạ Long"
+        },
+        {
+            "image": "/images/services/book_car/bentaurachgia.jpg",
+            "province": "Kiên Giang",
+            "location": "Bến Tàu Rạch Giá - Thành phố Rạch Giá"
+        },
+        {
+            "image": "/images/services/book_car/oceanbay.jpg",
+            "province": "Kiên Giang",
+            "location": "Ocean Bay - Thành phố Phú Quốc"
+        },
+        {
+            "image": "/images/services/book_car/sontien.jpg",
+            "province": "Đồng Nai",
+            "location": "Thành Phố Du lịch Sơn Tiên - Thành phố Biên Hòa"
+        },
+        {
+            "image": "/images/services/book_car/baotangcafe.jpg",
+            "province": "Đắk Lắk",
+            "location": "Bảo Tâng Cafe - Thành phố Buôn Mê Thuột"
         }
+       
     ]
 } 

@@ -1,0 +1,13 @@
+h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px)    {
+    h2{
+        font-size: 24px;
+    }
+}
