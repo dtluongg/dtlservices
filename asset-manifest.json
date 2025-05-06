@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dtlservices/static/css/main.a370183c.css",
-    "main.js": "/dtlservices/static/js/main.c4317f91.js",
-    "static/js/206.cf18faff.chunk.js": "/dtlservices/static/js/206.cf18faff.chunk.js",
+    "main.css": "/dtlservices/static/css/main.ef959737.css",
+    "main.js": "/dtlservices/static/js/main.2a5422c3.js",
+    "static/js/206.f2ecd06f.chunk.js": "/dtlservices/static/js/206.f2ecd06f.chunk.js",
     "static/media/logo.jpg": "/dtlservices/static/media/logo.02bd334a4cb87f385136.jpg",
     "index.html": "/dtlservices/index.html"
   },
   "entrypoints": [
-    "static/css/main.a370183c.css",
-    "static/js/main.c4317f91.js"
+    "static/css/main.ef959737.css",
+    "static/js/main.2a5422c3.js"
   ]
 }
