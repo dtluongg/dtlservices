@@ -1,4 +1,4 @@
-.banhmi-container {
+/* .banhmi-container {
     margin-top: 0;
 }
 
@@ -6,7 +6,7 @@
     display: flex;
     width: 100vw;
     /* height: calc(100vh - 80px); Trừ đi chiều cao header */
-    /* margin-top: 80px; Thêm margin bằng chiều cao header */
+    /* margin-top: 80px; Thêm margin bằng chiều cao header 
     padding: 0;
     overflow: hidden;
     scroll-snap-type: x mandatory;
@@ -187,4 +187,4 @@
         width: 95%;
         padding: 20px;
     }
-} 
+}  */

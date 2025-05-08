@@ -1,5 +1,7 @@
 # Website App Services basic of Do Tien Luong.
 ## Website sử dụng ReactJS, HTML, CSS, EmailJS, Python.
+## Sử dụng AI tạo ảnh: dreamina, freepik.
+## AI hỗ trợ code: Cursor.
 
 ### Trang web cá nhân đc tạo với đam mê muốn quảng cáo dịch vụ là 3 công việc chính trong thời sinh viên của Đỗ Tiến Lượng. 
 ### Các dịch vụ chính: 
