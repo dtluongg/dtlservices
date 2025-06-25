@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dtlservices/static/css/main.b3ffbecb.css",
-    "main.js": "/dtlservices/static/js/main.f1de3bb8.js",
+    "main.css": "/dtlservices/static/css/main.7ba2b372.css",
+    "main.js": "/dtlservices/static/js/main.e2dc705d.js",
     "static/js/206.f2ecd06f.chunk.js": "/dtlservices/static/js/206.f2ecd06f.chunk.js",
     "static/media/logo.jpg": "/dtlservices/static/media/logo.02bd334a4cb87f385136.jpg",
     "index.html": "/dtlservices/index.html"
   },
   "entrypoints": [
-    "static/css/main.b3ffbecb.css",
-    "static/js/main.f1de3bb8.js"
+    "static/css/main.7ba2b372.css",
+    "static/js/main.e2dc705d.js"
   ]
 }
