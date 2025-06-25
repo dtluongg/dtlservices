@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Acer Aspire A315-34 P3LC",
-            "description": "CPU Intel N5000, RAM 8GB, SSD 256GB, INTEL UHD 605",
+            "description": "CPU Intel N5000, RAM 8GB, SSD 256GB, INTEL UHD 605, Pin 3-4h",
             "fullDescription": "Laptop Acer Aspire A315 là sự lựa chọn hoàn hảo cho công việc và giải trí. Với cấu hình mạnh mẽ, thiết kế sang trọng và màn hình HD sắc nét, chiếc laptop này sẽ đáp ứng mọi nhu cầu học tập cơ bản của bạn.",
             "price": "4.000.000đ",
             "status": "sold",
@@ -27,7 +27,7 @@
         {
             "id": 2,
             "name": "HP 15S FQ1107TU",
-            "description": "CPU Intel Core i3-1005G1, RAM 8GB, SSD 256GB, Intel UHD Graphics",
+            "description": "CPU Intel Core i3-1005G1, RAM 8GB, SSD 256GB, Intel UHD Graphics, Pin 4-6h",
             "fullDescription": "Laptop HP 15S với thiết kế mỏng nhẹ, hiệu năng ổn định, phù hợp cho công việc văn phòng và giải trí nhẹ nhàng.",
             "price": "7.500.000đ",
             "status": "sold",
@@ -51,7 +51,7 @@
         {
             "id": 3,
             "name": "Asus K43E",
-            "description": "CPU INTEL Core i3-2330M, RAM 4GB, SSD 128GB, INTEL HD Graphics",
+            "description": "CPU INTEL Core i3-2330M, RAM 4GB, SSD 128GB, INTEL HD Graphics, Pin 1-2h",
             "fullDescription": "Laptop Asus K43E với hiệu năng mạnh mẽ từ INTEL Core i3-2330M, phù hợp cho học tập và công việc văn phòng.",
             "price": "2.700.000đ",
             "status": "available",
@@ -75,15 +75,15 @@
         {
             "id": 4,
             "name": "Sony Vaio SVF142DSGW",
-            "description": "CPU Intel Core i3-3217U, RAM 4GB, HDD 500GB, INTEL HD Graphics",
+            "description": "CPU Intel Core i3-3217U, RAM 4GB, HDD 500GB, INTEL HD Graphics, Pin 1-2h",
             "fullDescription": "Laptop Sony Vaio với thiết kế sang trọng, hiệu năng mạnh mẽ, phù hợp cho doanh nhân và người dùng cao cấp.",
             "price": "2.500.000đ",
             "status": "sold",
             "images": [
-                "/images/laptop/laptop4.jpg",
-                "/images/laptop/laptop4_1.jpg",
-                "/images/laptop/laptop4_2.jpg",
-                "/images/laptop/laptop4_3.jpg"
+                "/images/laptop/laptop1.jpg",
+                "/images/laptop/laptop1_1.jpg",
+                "/images/laptop/laptop1_2.jpg",
+                "/images/laptop/laptop1_3.jpg"
             ],
             "specifications": {
                 "CPU": "Intel Core i3-3217U",
@@ -99,7 +99,7 @@
         {
             "id": 5,
             "name": "Dell Latitude E7470",
-            "description": "CPU Intel Core i7-6600U, RAM 8GB, SSD 256GB, INTEL HD Graphics",
+            "description": "CPU Intel Core i7-6600U, RAM 8GB, SSD 256GB, INTEL HD Graphics, Pin 3-4h",
             "fullDescription": "Laptop Dell Latitude với độ bền cao, bảo mật tốt, phù hợp cho doanh nghiệp và người dùng chuyên nghiệp.",
             "price": "4.800.000đ",
             "status": "sold",
@@ -123,7 +123,7 @@
         {
             "id": 6,
             "name": "HP Pavilion 14-AL008TU",
-            "description": "CPU INTEL Core i3-6100U, RAM 12GB, SSD 240GB, INTEL HD Graphics",
+            "description": "CPU INTEL Core i3-6100U, RAM 12GB, SSD 240GB, INTEL HD Graphics, Pin 3-4h",
             "fullDescription": "Laptop HP Pavilion với thiết kế trẻ trung, hiệu năng cân bằng, phù hợp cho sinh viên và người dùng phổ thông.",
             "price": "4.900.000đ",
             "status": "sold",
@@ -147,7 +147,7 @@
         {
             "id": 7,
             "name": "Dell Vostro 3459",
-            "description": "CPU Intel Core i5-6300U, RAM 8GB, SSD 128GB, INTEL HD Graphics",
+            "description": "CPU Intel Core i5-6300U, RAM 8GB, SSD 128GB, INTEL HD Graphics, Pin 1-2h",
             "fullDescription": "Laptop Dell Vostro với cấu hình cao cấp, phù hợp cho gaming và các tác vụ đồ họa chuyên nghiệp.",
             "price": "5.500.000đ",
             "status": "sold",
@@ -171,7 +171,7 @@
         {
             "id": 8,
             "name": "Acer Aspire 3 A315-34 C2H9",
-            "description": "CPU Intel N4020, RAM 8GB, SSD 256GB, INTEL UHD 605",
+            "description": "CPU Intel N4020, RAM 8GB, SSD 256GB, INTEL UHD 605, Pin 3-4h",
             "fullDescription": "Laptop Acer Aspire 3 với hiệu năng mạnh mẽ, thiết kế hiện đại, phù hợp cho cả công việc và giải trí.",
             "price": "5.500.000đ",
             "status": "sold",
@@ -191,6 +191,78 @@
                 "Pin": "4-cell 48Wh",
                 "Trọng lượng": "2.2kg"
             }
-        }
+        },{
+            "id": 9,
+            "name": "Asus X441u",
+            "description": "CPU Intel Core i3-7100u, RAM 8GB, SSD 256GB, INTEL UHD Graphics, Pin 1-2h",
+            "fullDescription": "Laptop Asus 441u i3-7100u với thiết kế hiện đại, hiệu năng mạnh mẽ, phù hợp cho công việc và giải trí.",
+            "price": "4.500.000đ",
+            "status": "sold",
+            "images": [
+                "/images/laptop/asus2.jpg",
+                "/images/laptop/asus2_1.jpg",
+                "/images/laptop/asus2_2.jpg",
+                "/images/laptop/asus2_3.jpg"
+            ],
+            "specifications": {
+                "CPU": "Intel Core i3-7100u",
+                "RAM": "4GB DDR3",
+                "Ổ cứng": "128GB SSD",
+                "Card đồ họa": "INTEL UHD Graphics",
+                "Màn hình": "14 inch HD",
+                "Hệ điều hành": "Windows 10 Pro",
+                "Pin": "3-cell 41Wh",
+                "Trọng lượng": "1.8kg"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Dell Latitude 7480",
+            "description": "CPU Intel Core i5-7200U, RAM 16GB, SSD 256GB, INTEL UHD Graphics, Pin 6-8h",
+            "fullDescription": "Laptop Dell Latitude 7480 với thiết kế hiện đại, pin 6-8 giờ, cấu hình khủng, phù hợp cho công việc và giải trí.",
+            "price": "6.500.000đ",
+            "status": "available",
+            "images": [
+                "/images/laptop/dell3.jpg",
+                "/images/laptop/dell3_1.jpg",
+                "/images/laptop/dell3_2.jpg",
+                "/images/laptop/dell3_3.jpg"
+            ],
+            "specifications": {
+                "CPU": "Intel Core i5-7200U",
+                "RAM": "16GB DDR4",
+                "Ổ cứng": "256GB SSD",
+                "Card đồ họa": "INTEL UHD Graphics",
+                "Màn hình": "14 inch HD",
+                "Hệ điều hành": "Windows 10 Pro",
+                "Pin": "litinum 60Wh",
+                "Trọng lượng": "1.8kg"
+            }
+        },
+        {
+            "id": 11,
+            "name": "HP Notebook 348 G7",
+            "description": "CPU Intel Core i3-8130U, RAM 8GB, SSD 256GB, INTEL UHD Graphics, Pin 4-6h",
+            "fullDescription": "Laptop HP Notebook 348 G7 với thiết kế hiện đại, pin trâu, phù hợp cho công việc và giải trí.",
+            "price": "6.500.000đ",
+            "status": "available",
+            "images": [
+                "/images/laptop/hp3.jpg",
+                "/images/laptop/hp3_1.jpg",
+                "/images/laptop/hp3_2.jpg",
+                "/images/laptop/hp3_3.jpg",
+                "/images/laptop/hp3_4.jpg"
+            ],
+            "specifications": {
+                "CPU": "Intel Core i3-8130U",
+                "RAM": "8GB DDR4",
+                "Ổ cứng": "256GB SSD",
+                "Card đồ họa": "INTEL UHD Graphics",
+                "Màn hình": "14 inch HD",
+                "Hệ điều hành": "Windows 10 Pro",
+                "Pin": "litinum 50Wh",
+                "Trọng lượng": "1.8kg"
+            }
+        }   
     ]
 } 

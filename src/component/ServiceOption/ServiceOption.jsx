@@ -23,8 +23,8 @@ const ServiceOption = () => {
             </div>
             <div className='service_option_item'>
                 <img src={`${process.env.PUBLIC_URL}/images/services/upgrade_laptop/linhkien.jpg`} alt="Laptop" />
-                <h3>Sạc laptop, bàn phím, màn hình</h3>
-                <p>Hỗ trợ chỉ chỗ mua link kiện giá rẻ nhất.</p>
+                <h3>Sửa chữa - thay thế linh kiện chính hãng</h3>
+                <p>Thay pin, bàn phím, màn hình, cục sạc, tất cả linh kiện laptop hàng chính hãng với giá vô cùng hấp dẫn.</p>
             </div>
             <div className='service_option_item'>
                 <img src={`${process.env.PUBLIC_URL}/images/services/upgrade_laptop/caiwin.png`} alt="Laptop" />

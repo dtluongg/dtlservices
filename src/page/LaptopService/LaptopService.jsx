@@ -12,7 +12,7 @@ const LaptopService = () => {
   ];
   return (
     <div className='laptop-service'>
-        <h2>Dịch vụ Mua bán laptop , nâng cấp & sửa chữa laptop rẻ nhất mọi nơi</h2>
+        <h2>Dịch vụ nâng cấp, sửa chữa Laptop/PC uy tín, chất lượng, giá ưu đãi</h2>
         <Banner images={images} />
     </div>
   )
